@@ -2,6 +2,8 @@ package com.example.butterknife.unbinder;
 
 import androidx.annotation.ColorInt;
 import android.view.View;
+
+import androidx.annotation.NonNull;
 import butterknife.BindColor;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -12,7 +14,7 @@ public class G extends E {
   @BindColor(android.R.color.darker_gray) @ColorInt int grayColor;
   @BindView(android.R.id.button2) View button2;
 
-  public G(View view) {
+  public G(@NonNull View view) {
     super(view);
     ButterKnife.bind(this, view);
   }

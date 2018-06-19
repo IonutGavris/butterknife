@@ -61,7 +61,7 @@ public class SimpleActivity extends Activity {
     Toast.makeText(this, "You clicked: " + adapter.getItem(position), LENGTH_SHORT).show();
   }
 
-  @Override protected void onCreate(Bundle savedInstanceState) {
+  @Override protected void onCreate(@NonNull Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.simple_activity);
     ButterKnife.bind(this);

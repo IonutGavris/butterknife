@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.example.butterknife.R;
@@ -17,7 +20,7 @@ public class SimpleAdapter extends BaseAdapter {
 
   private final LayoutInflater inflater;
 
-  public SimpleAdapter(Context context) {
+  public SimpleAdapter(@NonNull Context context) {
     inflater = LayoutInflater.from(context);
   }
 
@@ -25,7 +28,8 @@ public class SimpleAdapter extends BaseAdapter {
     return CONTENTS.length;
   }
 
-  @Override public String getItem(int position) {
+  @Override @Nullable
+  public String getItem(int position) {
     return CONTENTS[position];
   }
 
@@ -33,7 +37,9 @@ public class SimpleAdapter extends BaseAdapter {
     return position;
   }
 
-  @Override public View getView(int position, View view, ViewGroup parent) {
+  @Override @NonNull public View getView(int position,
+                                         @Nullable View view,
+                                         @NonNull ViewGroup parent) {
     ViewHolder holder;
     if (view != null) {
       holder = (ViewHolder) view.getTag();
