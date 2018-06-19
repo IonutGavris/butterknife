@@ -23,7 +23,7 @@ public class OnPageChangeTest {
         + "import android.view.View;\n"
         + "import androidx.annotation.CallSuper;\n"
         + "import androidx.annotation.UiThread;\n"
-        + "import androidx.core.view.ViewPager;\n"
+        + "import androidx.viewpager.widget.ViewPager;\n"
         + "import butterknife.Unbinder;\n"
         + "import butterknife.internal.Utils;\n"
         + "import java.lang.IllegalStateException;\n"

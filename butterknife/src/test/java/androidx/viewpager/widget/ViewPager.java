@@ -1,4 +1,4 @@
-package androidx.core.view;
+package androidx.viewpager.widget;
 
 /** STUB! Required for test sources to compile. */
 public interface ViewPager {
