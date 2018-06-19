@@ -2,9 +2,9 @@ package butterknife;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.filters.SdkSuppress;
+import androidx.annotation.NonNull;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.filters.SdkSuppress;
 import android.util.Property;
 import android.view.View;
 import java.util.List;

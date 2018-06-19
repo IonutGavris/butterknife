@@ -1,4 +1,4 @@
-package android.support.v4.view;
+package androidx.core.view;
 
 /** STUB! Required for test sources to compile. */
 public interface ViewPager {

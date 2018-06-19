@@ -1,7 +1,7 @@
 package butterknife.internal;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.InstrumentationRegistry;
 import android.view.View;
 import org.junit.Test;
 

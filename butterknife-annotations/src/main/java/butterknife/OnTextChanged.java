@@ -1,6 +1,6 @@
 package butterknife;
 
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 import android.text.TextWatcher;
 import android.view.View;
 import butterknife.internal.ListenerClass;

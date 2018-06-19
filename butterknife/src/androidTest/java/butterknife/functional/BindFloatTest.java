@@ -1,7 +1,7 @@
 package butterknife.functional;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.InstrumentationRegistry;
 import android.util.TypedValue;
 import butterknife.BindFloat;
 import butterknife.BindInt;

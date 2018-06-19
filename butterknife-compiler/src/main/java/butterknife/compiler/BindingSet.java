@@ -43,11 +43,11 @@ final class BindingSet {
   private static final ClassName CONTEXT = ClassName.get("android.content", "Context");
   private static final ClassName RESOURCES = ClassName.get("android.content.res", "Resources");
   private static final ClassName UI_THREAD =
-      ClassName.get("android.support.annotation", "UiThread");
+      ClassName.get("androidx.annotation", "UiThread");
   private static final ClassName UI_THREAD_ANDROIDX =
       ClassName.get("androidx.annotation", "UiThread");
   private static final ClassName CALL_SUPER =
-      ClassName.get("android.support.annotation", "CallSuper");
+      ClassName.get("androidx.annotation", "CallSuper");
   private static final ClassName CALL_SUPER_ANDROIDX =
       ClassName.get("androidx.annotation", "CallSuper");
   private static final ClassName SUPPRESS_LINT =

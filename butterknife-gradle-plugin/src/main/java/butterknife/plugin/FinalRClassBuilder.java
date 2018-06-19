@@ -27,7 +27,7 @@ import static javax.lang.model.element.Modifier.STATIC;
  * Also enables adding support annotations to indicate the type of resource for every field.
  */
 public final class FinalRClassBuilder {
-  private static final String SUPPORT_ANNOTATION_PACKAGE = "android.support.annotation";
+  private static final String SUPPORT_ANNOTATION_PACKAGE = "androidx.annotation";
   private static final String[] SUPPORTED_TYPES = {
       "anim", "array", "attr", "bool", "color", "dimen", "drawable", "id", "integer", "layout", "menu", "plurals",
       "string", "style", "styleable"
